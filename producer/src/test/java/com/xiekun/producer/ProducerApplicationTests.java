@@ -20,4 +20,9 @@ class ProducerApplicationTests {
 		orderService.makeOrderTopic("1", "1", 12);
 	}
 
+	@Test
+	void testTTL() {
+		orderService.makeOrderTTL("2019", "pro_2020", 12);
+	}
+
 }
