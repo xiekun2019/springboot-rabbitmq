@@ -25,4 +25,11 @@ class ProducerApplicationTests {
 		orderService.makeOrderTTL("2019", "pro_2020", 12);
 	}
 
+	@Test
+	void testTTLMessage() {
+		orderService.makeOrderTTLMessage("2019", "pro_2020", 12);
+	}
+
+
+
 }
